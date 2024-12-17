@@ -44,20 +44,21 @@ h1{
 }
 
 main {
-  padding-top: 30px;
+  padding-top: 200px;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 100px;
 }
 header {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
     background: var(--secondary);
     z-index: 2;
     border-bottom: 1px solid var(--main-font);
-    position: relative;
+
 }
 
 header:before {
@@ -151,7 +152,7 @@ header:after {
   display: none;
   background-color: var(--secondary);
   position: fixed;
-  top: 72px;
+  top: 115px;
   left: 0;
   width: 100%;
   border-top: 1px solid var(--main-font);
