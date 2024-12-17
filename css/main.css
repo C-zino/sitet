@@ -40,6 +40,7 @@ h3{
 h1{
   font-size: 36px;
   font-weight: 300;
+
 }
 
 main {
@@ -294,13 +295,6 @@ footer p {
 /* WEBSITE */
 
 @media (width >= 768px) {
-  
-  main {
-    padding-top: 100px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-bottom: 125px;
-  }
 
   .grid1-1-1 {
     display: grid;
@@ -310,14 +304,14 @@ footer p {
 }
 
 @media (width >= 950px) {
-  header {
-    main {
-      padding-top: 100px;
-      margin-left: 125px;
-      margin-right: 125px;
-      margin-bottom: 125px;
-    }  
+  main {
+    padding-top: 170px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 125px;
+  }
 
+  header {
     position: fixed;
     top: 0;
     left: 0;
