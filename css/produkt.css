@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth; 
+  scroll-padding-top: 200px; 
+  --primary: #f5e9db;
+  --secondary: #fbf5ef;
+  --main-font: #411b0c;
+  --menu-font:#bb7e33;
+  --h-font:#9d523c;
+}
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,10 +17,14 @@
   }
   
   .product-card {
-    background-color: #fff;
-    border: 1px solid #000000;
+    background-color: var(--primary);
+    border: 1px solid var(--h-font);
     padding: 15px;
     text-align: center;
+  }
+
+  .product-card p{
+    color: var(--h-font)
   }
   
   .img-inspo {
@@ -69,8 +83,8 @@
   .buy-button {
     display: inline-block;
     padding: 10px 20px;
-    border: solid 1px #000;
-    color: #000000;
+    border: solid 1px var(--h-font);
+    color: var(--h-font);
     text-decoration: none;
     border-radius: 50px;
     font-size: 1rem;
