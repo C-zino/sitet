@@ -183,6 +183,11 @@ padding-bottom: 100px;
     padding-top: 50px;
   }
 
+  .omos-minigrid{
+    border: 1px solid var(--h-font);
+    margin-bottom: 70px;
+  }
+
 .lennert-info {
   list-style-type: none;
   text-align: start;
@@ -402,6 +407,7 @@ button{
     display: grid;
     grid-template-columns: 1fr 20px 1fr 20px 1fr;
     margin-top: 150px;
+    border: none;
   }
 
   .omos-info3 {
