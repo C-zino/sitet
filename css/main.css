@@ -40,23 +40,25 @@ h3{
 h1{
   font-size: 36px;
   font-weight: 300;
+
 }
 
 main {
-  padding-top: 30px;
+  padding-top: 200px;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 100px;
 }
 header {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
     background: var(--secondary);
     z-index: 2;
     border-bottom: 1px solid var(--main-font);
-    position: relative;
+
 }
 
 header:before {
@@ -150,7 +152,7 @@ header:after {
   display: none;
   background-color: var(--secondary);
   position: fixed;
-  top: 72px;
+  top: 115px;
   left: 0;
   width: 100%;
   border-top: 1px solid var(--main-font);
@@ -294,13 +296,6 @@ footer p {
 /* WEBSITE */
 
 @media (width >= 768px) {
-  
-  main {
-    padding-top: 150px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-bottom: 125px;
-  }
 
   .grid1-1-1 {
     display: grid;
@@ -310,6 +305,13 @@ footer p {
 }
 
 @media (width >= 950px) {
+  main {
+    padding-top: 170px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 125px;
+  }
+
   header {
     position: fixed;
     top: 0;
