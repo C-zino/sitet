@@ -71,6 +71,10 @@ body {
   padding-bottom: 20px;
 }
 
+.messeinfo a:hover{
+  color: var(--h-font);
+  }
+
 #omos {
   margin-top: 50px;
   text-align: center;
@@ -269,6 +273,11 @@ border: 1px solid var(--h-font); padding: 50px;
   font-size: 12px;
 }
 
+.button:hover {
+  color: var(--h-font);
+  border: 1px solid var(--h-font);
+}
+
 .nyhedsbrev-container{
   margin-top: 100px;
   text-align: center;
@@ -301,6 +310,11 @@ button{
   font-family: "Amaline Trial";
   font-size: 12px;
   background-color: var(--primary);
+}
+
+button:hover{
+  color: var(--h-font);
+  border: 1px solid var(--h-font);
 }
 
 
