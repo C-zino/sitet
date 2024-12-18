@@ -52,8 +52,7 @@ p {
 .hero-border {
   border: 2px solid var(--main-font);
   padding: 1rem;
-  margin: 8rem;
-  margin-bottom: 0%;
+  margin: 2rem;
 }
 
 .hero-img {
