@@ -1,3 +1,8 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 @font-face {
   font-family: "Amaline Trial", Arial, Helvetica, sans-serif;
@@ -21,10 +26,6 @@ body {
   font-family: "Poppins", serif;
   font-weight: 200;
   color: var(--main-font);
-}
-
-footer p {
-  line-height: 2;
 }
 
 h1,
