@@ -1,0 +1,329 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: "Amaline Trial", Arial, Helvetica, sans-serif;
+  src: url("../fonts/Amaline\ Trial.otf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+  --primary: #f5e9db;
+  --secondary: #fbf5ef;
+  --main-font: #411b0c;
+  --menu-font: #bb7e33;
+  --h-font: #9d523c;
+}
+
+body {
+  background-color: var(--primary);
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  color: var(--main-font);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Amaline Trial";
+  color: var(--h-font);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+li {
+  font-weight: 400;
+}
+
+p {
+  color: var(--h-font);
+  font-family: "Poppins", serif;
+}
+
+.hero-border {
+  border: 2px solid var(--main-font);
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.hero-img {
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  height: auto;
+  max-height: 75vh;
+}
+.hero-img img {
+  height: auto;
+  width: 70%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.crystal-head {
+  color: var(--menu-font);
+  text-align: center;
+  font-family: "Romans Story Demo";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 2px solid var(--main-font);
+  padding: 1rem;
+  margin: 5rem;
+}
+
+.crystal-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin-right: 13rem;
+}
+
+.crystal-img {
+  border: 2px solid var(--main-font);
+  padding: 1rem;
+  border-radius: 424px;
+  width: 30%;
+}
+
+.crystal-img img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.bottom-line {
+  display: flex;
+  margin-inline: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+  width: 90%;
+}
+
+.straight-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meanings {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
+}
+
+.ul {
+  display: flex;
+  gap: 16px;
+}
+
+ul > li > a {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.guidance-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50%;
+  margin-right: 15rem;
+  border: 2px solid var(--main-font);
+  padding: 4rem;
+  margin: 8rem;
+}
+
+.guidance-points-head {
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.care-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.care-points {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 2rem;
+  border: 2px solid var(--main-font);
+  width: 47.5%;
+}
+
+.care-points-head {
+  position: absolute;
+  left: 2rem;
+  top: -2rem;
+}
+
+.chakras {
+  width: 47.5%;
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chakras img {
+  width: 50%;
+}
+
+.straight-line-secondary {
+  transform: rotate(180deg);
+  max-width: 5%;
+  height: fit-content;
+}
+
+.title-box {
+  color: var(--menu-font);
+  background-color: var(--secondary);
+  border: 2px solid var(--main-font);
+  text-align: center;
+  font-family: "Romans Story Demo";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: fit-content;
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+}
+/* ul {
+  width: 30%;
+} */
+
+@media screen and (max-width: 768px) {
+  .hero-border {
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  .hero-img {
+    display: flex;
+    height: 300px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .crystal-head {
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+  }
+  .crystal-section {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .crystal-img {
+    border: 2px solid brown;
+    padding: 1rem;
+    /* margin: 8rem; */
+    width: 70%;
+  }
+
+  .crystal-img img {
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+  li {
+    list-style: none;
+    padding-inline: 0px;
+    font-size: 16px;
+  }
+  .crystal-section {
+    flex-direction: column;
+  }
+  .straight-line {
+    display: none;
+  }
+  .bottom-line {
+    width: 90%;
+    margin-inline: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+  }
+
+  .title {
+    flex-direction: column;
+    margin: 0%;
+  }
+
+  .guidance-points {
+    width: 100%;
+  }
+
+  .guidance-points-secondary {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .guidance-points-head {
+    padding: 1.5rem;
+    margin: 0%;
+    margin-bottom: 10rem;
+  }
+
+  .guidance-section {
+    flex-direction: column;
+    margin-block: 4rem;
+    margin-inline: 1rem;
+    padding-top: 6rem;
+    padding-inline: 1rem;
+  }
+
+  .straight-line-secondary {
+    display: none;
+  }
+
+  .care-points {
+    width: 100%;
+  }
+
+  .care-section {
+    flex-direction: column;
+    margin-block: 4rem;
+    margin-inline: 1rem;
+    padding-top: 6rem;
+    padding-inline: 1rem;
+  }
+  .chakras {
+    width: 100%;
+  }
+  .chakras img {
+    width: 100%;
+  }
+}

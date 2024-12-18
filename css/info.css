@@ -7,22 +7,22 @@ html {
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-.divider{
-    margin-left: -300px;
-    margin-right: -200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    max-width: 100%;
+.divider {
+  margin-left: -300px;
+  margin-right: -200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 100%;
 }
 
-.divider2{
-    margin-left: -300px;
-    margin-right: -200px;
-    margin-top: 100px;
-    max-width: 100%;
+.divider2 {
+  margin-left: -300px;
+  margin-right: -200px;
+  margin-top: 100px;
+  max-width: 100%;
 }
 
 #messer {
@@ -71,6 +71,10 @@ body {
   padding-bottom: 20px;
 }
 
+.messeinfo a:hover {
+  color: var(--h-font);
+}
+
 #omos {
   margin-top: 50px;
   text-align: center;
@@ -96,11 +100,11 @@ h3 {
 }
 
 .lennert-img {
-    margin-top: 50px;
-    width: 270px;
-    height: 349px;
-    margin-bottom: 60px;
-  }
+  margin-top: 50px;
+  width: 270px;
+  height: 349px;
+  margin-bottom: 60px;
+}
 
 .omos-container {
   display: flex;
@@ -151,15 +155,15 @@ h3 {
 .omos-info3 {
   list-style-type: none;
   padding: 30px;
- padding-left: 70px;
- padding-right: 50px;
- text-align: start;
+  padding-left: 70px;
+  padding-right: 50px;
+  text-align: start;
 }
 
-.omos-andet{
-padding-left: 50px;
-padding-right: 50px; 
-padding-bottom: 100px;
+.omos-andet {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
 }
 
 .omos-info3 li {
@@ -172,21 +176,22 @@ padding-bottom: 100px;
   position: absolute;
   left: -20px;
 }
-.line{
-    display: none;
+
+.line {
+  display: none;
 }
 
 .omos-minigrid h4 {
-    color: var(--h-font);
-    font-family: "Amaline Trial";
-    font-size: 20px;
-    padding-top: 50px;
-  }
+  color: var(--h-font);
+  font-family: "Amaline Trial";
+  font-size: 20px;
+  padding-top: 50px;
+}
 
-  .omos-minigrid{
-    border: 1px solid var(--h-font);
-    margin-bottom: 70px;
-  }
+.omos-minigrid {
+  border: 1px solid var(--h-font);
+  margin-bottom: 70px;
+}
 
 .lennert-info {
   list-style-type: none;
@@ -210,14 +215,15 @@ padding-bottom: 100px;
 }
 
 .lennert-sprite h4 {
-    color: var(--h-font);
-    font-family: "Amaline Trial";
-    font-size: 20px;
-    text-align: start;
+  color: var(--h-font);
+  font-family: "Amaline Trial";
+  font-size: 20px;
+  text-align: start;
 }
 
-.lennert-sprite{
-border: 1px solid var(--h-font); padding: 50px;
+.lennert-sprite {
+  border: 1px solid var(--h-font);
+  padding: 50px;
 }
 
 #felleskab {
@@ -269,26 +275,30 @@ border: 1px solid var(--h-font); padding: 50px;
   font-size: 12px;
 }
 
-.nyhedsbrev-container{
+.button:hover {
+  color: var(--h-font);
+  border: 1px solid var(--h-font);
+}
+
+.nyhedsbrev-container {
   margin-top: 100px;
   text-align: center;
 }
 
-.nyhedsbrev{
+.nyhedsbrev {
   margin-top: 50px;
 }
 
-.nyhedsbrev label{
+.nyhedsbrev label {
   font-weight: 400;
-font-size: 18px;
+  font-size: 18px;
 }
 
-.nyhedsbrev input{
-padding-right: 100px;
-
+.nyhedsbrev input {
+  padding-right: 100px;
 }
 
-button{
+button {
   margin-top: 30px;
   border: 1px solid var(--main-font);
   border-radius: 50px;
@@ -303,19 +313,61 @@ button{
   background-color: var(--primary);
 }
 
+button:hover {
+  color: var(--h-font);
+  border: 1px solid var(--h-font);
+}
 
+.streker_left {
+  display: grid;
+  grid-template-columns: 2fr 1fr 5fr;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: -150px;
+  margin-right: -150px;
+}
+
+.streker_right {
+  display: grid;
+  grid-template-columns: 5fr 1fr 2fr;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-left: -150px;
+  margin-right: -150px;
+}
+
+.border_top {
+  height: 0.5px;
+  background-color: var(--main-font);
+  margin-bottom: 5px;
+  margin-top: 12px;
+}
+
+.border_bottom {
+  height: 0.5px;
+  background-color: var(--main-font);
+  margin-top: 5px;
+}
+
+.stjerne {
+  text-align: center;
+}
+
+.stjerne img {
+  width: 30px;
+}
 
 @media (width <= 1450px) {
-    .lennert-container {
-        display: flex;
-        flex-direction: column; 
-      }
-    
-    
-      .lennert-img {
-        order: -1; 
-        align-self: center; 
-      }}
+  .lennert-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lennert-img {
+    order: -1;
+    align-self: center;
+  }
+}
 
 /* WEBSITE */
 
@@ -334,7 +386,6 @@ button{
     display: flex;
     justify-content: end;
   }
-
 }
 
 @media (width >= 1450px) {
@@ -360,7 +411,6 @@ button{
   .helle-sprite h2 {
     font-size: 50px;
   }
-
 
   #omos h3 {
     font-size: 40px;
