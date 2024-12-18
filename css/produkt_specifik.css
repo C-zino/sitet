@@ -1,0 +1,350 @@
+body {
+ 
+  text-align: center;
+}
+
+main{
+  padding-top: 105px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+  --primary: #f5e9db;
+  --secondary: #fbf5ef;
+  --main-font: #411b0c;
+  --menu-font: #bb7e33;
+  --h-font: #9d523c;
+}
+
+/* TILBAGE TIL PRODUKTER KNAP */
+
+.tilbage_btn {
+  text-decoration: underline;
+  font-size: 14px;
+  color: var(--main-font);
+  margin-bottom: 2%;
+  width: 20%;
+  transition: transform 0.3s ease;
+}
+
+.tilbage_btn a{
+  color: var(--main-font);
+}
+
+.tilbage_btn img{
+  width: 100%;
+}
+
+.tilbage_btn:hover {
+  cursor: pointer;
+  transform: translate y(-5px);
+}
+/* TILBAGE TIL PRODUKTER KNAP */
+
+/* INFO OG FOTO */
+
+.produkt_foto_container {
+  margin: auto;
+}
+
+.produkt_foto_container img {
+  width: 100%;
+}
+
+.billedetekst {
+  font-size: 14px;
+}
+
+/* .info h2,
+p {
+  text-align: center;
+} */
+
+.button {
+  margin: auto;
+  border: 1px solid var(--main-font);
+  border-radius: 50px;
+  padding: 15px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  text-align: center;
+  text-decoration: none;
+  color: #411b0c;
+  font-weight: bold;
+  font-family: "Amaline Trial";
+  font-size: 12px;
+  width: 100px;
+}
+
+.button a {
+  text-align: center;
+  text-decoration: none;
+  color: #411b0c;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* INFO OG FOTO */
+
+body {
+  text-align: center;
+}
+
+/* SPECIFIKATIONER */
+
+.specifikationer {
+  display: grid;
+  
+  margin: auto;
+  text-align: center;
+}
+
+
+
+/* SPECIFIKATIONER */
+
+/* STJERNELINJE */
+
+.streker_left {
+
+  display: grid;
+
+  grid-template-columns: 2fr 1fr 5fr;
+
+  margin-top: 5em;
+
+  margin-bottom: 5em;
+
+  margin-left: -150px;
+
+  margin-right: -150px;
+
+}
+
+
+.streker_right {
+
+  display: grid;
+
+  grid-template-columns: 5fr 1fr 2fr;
+
+  margin-top: 5em;
+
+  margin-bottom: 5em;
+
+  margin-left: -150px;
+
+  margin-right: -150px;
+
+}
+
+
+.border_top {
+
+  height: 0.5px;
+
+  background-color: var(--main-font);
+
+  margin-bottom: 5px;
+
+  margin-top: 12px;
+
+}
+
+
+.border_bottom {
+
+  height: 0.5px;
+
+  background-color: var(--main-font);
+
+  margin-top: 5px;
+
+}
+
+
+.stjerne {
+
+  text-align: center;
+
+}
+
+
+.stjerne img {
+
+  width: 30px;
+
+}
+
+/* STJERNELINJE */
+
+/* NØGLEORD */
+
+.keywords {
+  text-align: center;
+}
+/* .keywords h2 {
+  text-align: center;
+  margin: none;
+} */
+
+/* NØGLEORD */
+
+/* SE OGSÅ --- PRODUKT GRID */
+
+.se_ogsaa {
+  text-align: center; /* Centrerer teksten i containeren */
+  margin: auto;
+}
+
+.title {
+  font-size: 24px; /* Tilpas skriftstørrelse */
+  margin-bottom: 20px; /* Giver afstand ned til kasserne */
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  /* max-width: 1200px; */
+  width: 100%;
+}
+
+.product-card {
+  background-color: var(--primary);
+  border: 1px solid #411b0c;
+  padding: 30px;
+  text-align: center;
+ 
+}
+
+.image-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.product-name {
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  color: #000;
+  margin: 5px 0;
+}
+
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: solid 1px #411b0c;
+  color: var(--main-font);
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.buy-button:hover {
+  border: solid 1px var(--h-font);
+  color: var(--h-font);
+}
+
+@media (width > 800px) {
+  /* INFO */
+
+  .tilbage_btn {
+    margin: none;
+    margin-left: -90px;
+    width: 5%;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  body {
+    text-align: left;
+  }
+  .keywords,
+  .info {
+    margin-left: 0; /* Fjerner auto centrering */
+    margin-right: 0;
+    text-align: left; /* Indhold bliver venstrejusteret */
+  }
+  .info {
+    display: grid;
+    grid-template-columns: 14fr 16fr;
+    gap: 190px;
+  }
+.keywords_specifik{
+  text-align: right;
+}
+
+  .button{
+    margin-left: 0%;
+  }
+
+ 
+  .specifikationer {
+    margin-top: 50px;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specifikationer h2 {
+    font-size: 24px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+  }
+
+  .keywords {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  }
+ 
+  }
+
+  
+
+  .produkt_foto_container {
+    height: 100%;
+
+  }
+
+  .produkt_foto_container img {
+    aspect-ratio: 3/4;
+  }
+
+  /* GALLERI GRID */
+  .se_ogsaa {
+    justify-content: center;
+    margin-top: 50px;
+  }
+ 
+  /* .img-inspo {
+    display: contents;
+  }
+  .image-inspo {
+    grid-column: 1 / span 2;
+  } */
+  /* GALLERI GRID */
+}
+/* SE OGSÅ --- PRODUKT GRID */
