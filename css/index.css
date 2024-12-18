@@ -1,7 +1,7 @@
 @font-face {
   font-family: "CarlBrown";
   src: url("../fonts/CarlBrown.woff2") format("woff2"),
-    url("../fonts/CarlBrown.woff") format("woff");
+    url("../fonts/Carl Brown.woff") format("woff");
   font-style: normal;
 }
 
@@ -22,11 +22,9 @@ html {
   overflow: hidden;
 } */
 
-.grid_container {
+/* .grid_container {
   z-index: -1;
   position: relative;
-  /*  aspect-ratio: 1.3/1; */
-  /* width: 600px; */
   margin-right: -50px;
   margin-left: 0;
 }
@@ -35,15 +33,21 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
 .video {
   z-index: -1;
   position: relative;
-  /*  aspect-ratio: 1.3/1; */
+  aspect-ratio: 1.3/1;
   /* width: 600px; */
   margin-right: -50px;
   margin-left: 0;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .zeymer_headline h1 {
@@ -182,7 +186,7 @@ html {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   width: 100%;
 }
 
