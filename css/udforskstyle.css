@@ -40,10 +40,6 @@ h3 {
   line-height: normal;
 }
 
-li {
-  font-weight: 400;
-}
-
 p {
   color: var(--h-font);
   font-family: "Poppins", serif;
@@ -123,18 +119,9 @@ p {
   margin: 1rem;
 }
 
-.ul {
-  display: flex;
-  gap: 16px;
-}
-
-ul > li > a {
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-li {
+.udforsk-list-item {
   list-style: none;
+  line-height: normal;
   padding: 15px;
   font-size: 24px;
 }
@@ -153,7 +140,7 @@ li {
 
 .guidance-points-head {
   position: absolute;
-  top: -2rem;
+  top: -3.5rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -177,7 +164,7 @@ li {
 .care-points-head {
   position: absolute;
   left: 2rem;
-  top: -2rem;
+  top: -3.5rem;
 }
 
 .chakras {
@@ -219,6 +206,11 @@ li {
 } */
 
 @media screen and (max-width: 768px) {
+  .udforsk-list-item {
+    list-style: none;
+    padding-inline: 0px;
+    font-size: 16px;
+  }
   .hero-border {
     flex-direction: column;
     padding: 15px;
@@ -260,11 +252,7 @@ li {
     aspect-ratio: 1/1;
     width: 100%;
   }
-  li {
-    list-style: none;
-    padding-inline: 0px;
-    font-size: 16px;
-  }
+
   .crystal-section {
     flex-direction: column;
   }
@@ -301,7 +289,7 @@ li {
     flex-direction: column;
     margin-block: 4rem;
     margin-inline: 1rem;
-    padding-top: 6rem;
+    padding-top: 3rem;
     padding-inline: 1rem;
   }
 
@@ -311,6 +299,7 @@ li {
 
   .care-points {
     width: 100%;
+    flex-direction: column;
   }
 
   .care-section {
