@@ -1,7 +1,7 @@
 @font-face {
   font-family: "CarlBrown";
   src: url("../fonts/CarlBrown.woff2") format("woff2"),
-    url("../fonts/Carl Brown.woff") format("woff");
+    url("../fonts/CarlBrown.woff") format("woff");
   font-style: normal;
 }
 
@@ -51,7 +51,7 @@ html {
 }
 
 .zeymer_headline h1 {
-  font-family: "carl brown";
+  font-family: "CarlBrown";
   color: var(--main-font);
   font-size: 155px;
   font-weight: 200;
