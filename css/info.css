@@ -270,9 +270,7 @@ h3 {
   padding-right: 30px;
   text-decoration: none;
   color: var(--main-font);
-  font-weight: bold;
-  font-family: "Amaline Trial";
-  font-size: 12px;
+
 }
 
 .button:hover {
@@ -307,9 +305,6 @@ button {
   padding-right: 30px;
   text-decoration: none;
   color: var(--main-font);
-  font-weight: bold;
-  font-family: "Amaline Trial";
-  font-size: 12px;
   background-color: var(--primary);
 }
 
